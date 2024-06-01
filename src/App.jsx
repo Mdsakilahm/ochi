@@ -6,7 +6,7 @@ import Aboutpage from './components/Aboutpage';
 import Eyes from './components/Eyes';
 function App() {
   return (
-    <div className='w-full min-h-screen bg-slate-50 '>
+    <div className='w-full min-h-screen bg-slate-50 overflow-hidden'>
       <Navbar/>
       <Landingpage/>
       <Marquee/>
